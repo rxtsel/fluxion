@@ -107,18 +107,20 @@ input {
 }
 
 input:focus {
-  outline: 1px solid rgb(62, 145, 255);
+  outline: 1px solid #000000;
 }
 
 input[type="submit"] {
-  background: #eeebeb;
+  background: #e51513;
+  color: #ffffff;
   border: none;
   font-size: 1.4rem;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+  transition: background .5s ease;
 }
 
 input[type="submit"]:hover {
-  background: #dcd9d9e2;
+  background: #000000;
   cursor: pointer;
 }
 
@@ -144,7 +146,7 @@ input[type="submit"]:hover {
 
 /* ----- SPINNER ----- */
 .loader {
-  color: #ce0e2d;
+  color: #e51513;
   font-size: 3em;
   text-indent: -9999em;
   overflow: hidden;
@@ -223,3 +225,4 @@ input[type="submit"]:hover {
     transform: rotate(360deg);
   }
 }
+
